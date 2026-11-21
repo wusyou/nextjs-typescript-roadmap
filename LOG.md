@@ -9,3 +9,4 @@
 
 - Array (Not strict in the order of the data type and quantity inside the array)
 - Tuple (Strict in the order of the data type and quantity inside the array)
+- Objects
