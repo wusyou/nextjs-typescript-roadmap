@@ -5,7 +5,7 @@ type Product = {
 };
 
 const firstProduct: Product = { name: "Mop", price: 140, inStock: true };
-const secondProduct: Product = { name: "Hose", price: 120 }; // Kulang ang inStock
+const secondProduct: Product = { name: "Hose", price: 120, inStock: true }; //Mag eerror kapag kulang ng key and value
 
 const products: Product[] = [firstProduct, secondProduct];
 
