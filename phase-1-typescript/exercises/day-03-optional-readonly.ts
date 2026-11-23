@@ -22,6 +22,4 @@ console.log(
   `${taskTwo.id}, ${taskTwo.title}, ${taskTwo.description ?? "No Description"}, ${taskTwo.isDone}`,
 );
 
-taskOne.id = 4;
-
 taskTwo.isDone = false;
