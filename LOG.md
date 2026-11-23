@@ -10,3 +10,10 @@
 - Array (Not strict in the order of the data type and quantity inside the array)
 - Tuple (Strict in the order of the data type and quantity inside the array)
 - Objects Types
+
+## Day 3 - Nov 23, 2026
+
+- Type (cannot add key anymore)
+- Interface (can add key through using extends commands)
+- Optional (use ? to consider as optional and use ?? if you want print something even though not existing)
+- Readonly (cannot modify the value of the key)
