@@ -17,3 +17,7 @@
 - Interface (can add key through using extends commands)
 - Optional (use ? to consider as optional and use ?? if you want print something even though not existing)
 - Readonly (cannot modify the value of the key)
+
+## Day 4 - Nov 24, 2026
+
+- function types, void, default params, union at literal types, typeof narrowing
