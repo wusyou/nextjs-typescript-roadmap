@@ -1,10 +1,12 @@
+export {};
+
 function getArea(width: number, height: number): number {
   return width * height;
 }
 
 console.log("Area:", getArea(4, 3));
 
-const isAdult = (age: number): boolean => 18 < age;
+const isAdult = (age: number): boolean => 18 <= age;
 
 console.log("17 adult?", isAdult(17)); // false
 console.log("18 adult?", isAdult(18)); // true
@@ -21,7 +23,10 @@ function computeTotal(
   quantity: number,
   discount: number = 0,
 ): number {
-  return price * quantity * (discount / 100);
+  const subtotal = price * quantity;
+  const discountAmount = subtotal * (discount / 100);
+
+  return subtotal - discountAmount;
 }
 
 console.log("Walang discount:", computeTotal(100, 2));
